@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISRO Data</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ISRO Data</h1>
+    </header>
+    <main>
+      <section id="search-section">
+        <h2>Search by State/Country:</h2>
+        <input
+          type="text"
+          id="state-input"
+          placeholder="Enter State/Country Name"
+        />
+        <button id="search-btn">Search</button>
+      </section>
+      <section id="centers-section">
+        <h2>Centers:</h2>
+        <ul id="centers-list"></ul>
+      </section>
+      <section id="spacecraft-section">
+        <h2>Spacecraft:</h2>
+        <select id="spacecrafts-list"></select>
+      </section>
+      <section id="rockets-section">
+        <h2>Rockets:</h2>
+        <select id="rockets-list"></select>
+      </section>
+      <section id="customer-section">
+        <h2>Customer Satellites:</h2>
+        <input
+          type="text"
+          id="country-input"
+          placeholder="Enter Country Name"
+        />
+        <button id="search-satellites-btn">Search</button>
+        <div id="customer-satellites-list"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
